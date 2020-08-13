@@ -41,19 +41,19 @@ const questions = [
         name: 'license',
         choices: [
             {
-                name: 'License 1',
+                name: 'MIT',
             },
             {
-                name: 'License 2',
+                name: 'ISC',
             },
             {
-                name: 'License 3',
+                name: 'GPLv3',
             },
             {
-                name: 'License 4',
+                name: 'ODbl',
             },
             {
-                name: 'License 5',
+                name: 'Perl',
             },
         ],
     },
@@ -78,8 +78,6 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then((answers) => {
-        // let newAnswers = JSON.stringify(answers, null, '  ')
-        console.log(answers);
         writeToFile("README.md", generateMarkdown({...answers}));
     })
 };
