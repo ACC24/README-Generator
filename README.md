@@ -1,10 +1,4 @@
 # README-Generator
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="assets/2020-08-13.png">
-    <source src="assets/README-generator-demo.mp4" type="video/mp4">
-   </video>
-</figure>
-
+[![readme video](http://img.youtube.com/vi/yu4gpZa-LlQ/0.jpg)](http://www.youtube.com/watch?v=yu4gpZa-LlQ "Readme demo")
 
  
