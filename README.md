@@ -3,7 +3,7 @@
 
 
 <img src="assets/2020-08-13.png">
-<img src="assets/2020-08-13(1).png">
+<img src="assets/2020-08-13 (1).png">
 
 
 Click the image below for a video demo of the application.
